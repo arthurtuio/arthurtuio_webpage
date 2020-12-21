@@ -15,7 +15,7 @@ def MyExperiences():
 
     experiencias_list = [
         "Profissional | Engenheiro de Dados na Conta Azul",
-        "Pessoal | Facilitador de tutorial na Python Brasil 2020",
+        "Pessoal | Facilitador de tutorial na Python Brasil 2020",  # disponibilizar o tutorial e os videos da python brasil pra turma
         "Pessoal | Um breve relato dos meus 4 anos na AIESEC",
         "Pessoal | Meu intercâmbio voluntário na Colômbia em 2017",
         # No futuro vem mais experiências
