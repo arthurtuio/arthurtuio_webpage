@@ -3,6 +3,8 @@ import streamlit as st
 
 from lib.initializer import Initializer
 from lib.my_contacts import MyContact
+from lib.my_experiences import MyExperiences
+from lib.my_projects import MyProjects
 
 
 class MainPage:
@@ -26,10 +28,10 @@ class MainPage:
             Initializer()
 
         elif topico_selecionado == topicos_list[1]:
-            st.write("Under Construction...")
+            MyProjects()
 
         elif topico_selecionado == topicos_list[2]:
-            st.write("Under Construction...")
+            MyExperiences()
 
         elif topico_selecionado == topicos_list[3]:
             MyContact()
